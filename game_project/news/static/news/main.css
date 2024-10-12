@@ -1,8 +1,8 @@
 
 body {
-    background: #fafafa;
+    background: #3b3b3b;
     color: #333333;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -14,7 +14,7 @@ body {
   }
   
   .bg-steel {
-    background-color: #5f788a;
+    background-color: #454b1b;
   }
   
   .site-header .navbar-nav .nav-link {
@@ -30,7 +30,7 @@ body {
   }
   
   .content-section {
-    background: #ffffff;
+    background: #454b1b;
     padding: 10px 20px;
     border: 1px solid #dddddd;
     border-radius: 3px;
@@ -38,7 +38,7 @@ body {
   }
   
   .article-title {
-    color: #444444;
+    color: #ffffff;
   }
   
   a.article-title:hover {
@@ -48,6 +48,7 @@ body {
   
   .article-content {
     white-space: pre-line;
+    color: #ffffff;
   }
   
   .article-img {
@@ -84,3 +85,35 @@ body {
     font-size: 2.5rem;
   }
   
+  .image-container {
+    height:40vh; /* Takes one-third of the viewport height */
+    object-fit: cover; /* Ensures the image scales properly */
+    object-position: 45% 55%;
+    width: 100%; /* Ensures the image fills the sidebar horizontally */
+    position: relative;
+}
+
+
+.side-image {
+  height:100vh;
+  width: 45vh;
+  object-fit: cover; /* Ensures the image scales properly */
+  object-position: 45% 55%;
+  padding: 0;
+  position: absolute;
+}
+
+.right-side-image-div {
+  padding: 0;
+  position: absolute;
+  right: 0;
+}
+
+.right-side-image {
+  height:100vh;
+  width: 45vh;
+  object-fit: cover; /* Ensures the image scales properly */
+  object-position: 45% 55%;
+  padding: 0;
+  position: absolute;
+}
