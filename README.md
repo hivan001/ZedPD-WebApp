@@ -1,5 +1,5 @@
 # Fort Hope - WebApp
-This is a web application for a side game project of mine called Fort Hope. Fort Hope is a game being developed using the Unreal Engine. Details about the game can be found on the web app. This web app provides a means for me to provide details about the game, post updates to development while allowing other users to create accounts and create their own posts regarding the game. 
+This is a web application for a side game project of mine called Fort Hope. Fort Hope is a game being developed using the Unreal Engine. Details about the game can be found on the web app. This web app provides a means for me to provide details about the game, post updates to development while allowing other users to create accounts and create their own posts regarding the game. This web application is currently not hosted on a public server yet.
 
 In order to run this web application locally on your browser, follow the steps below:
 
