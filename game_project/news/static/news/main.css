@@ -1,12 +1,15 @@
 
 body {
-    background: #3b3b3b;
+    background: #e8d9c5;
     color: #333333;
     /* margin-top: 5rem; */
   }
   
-  h1, h2, h3, h4, h5, h6 {
+  h1,h2, h3, h4, h5, h6 {
     color: #444444;
+    font-family: 'Special Elite', monospace;
+    font-weight: 400;
+    font-style: normal;
   }
   
   ul {
@@ -26,7 +29,10 @@ body {
   }
   
   .site-header .navbar-nav .nav-link.active {
-    font-weight: 500;
+    /* font-weight: 500; */
+    font-family: 'Special Elite', monospace;
+    font-weight: 400;
+    font-style: normal;
   }
   
   .content-section {
@@ -35,6 +41,7 @@ body {
     border: 1px solid #dddddd;
     border-radius: 3px;
     margin-bottom: 20px;
+    color: white;
   }
   
   .article-title {
@@ -116,4 +123,52 @@ body {
   object-position: 45% 55%;
   padding: 0;
   position: absolute;
+}
+
+.about-heading {
+  text-align: center;
+  color: #ffffff;
+  background-color: #454b1b;
+  padding: 0;
+  border: 1px solid #e8d9c5;
+  height: 15vh;
+  line-height: 15vh;
+  margin-bottom: 0;
+  font-family: 'Special Elite', monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about-background {
+  background-color:#e8d9c5;
+  height: 85vh;
+  padding: 0;
+  padding-top: 0;
+
+}
+
+.nav-item {
+  font-family: 'Special Elite', monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+
+.news-heading {
+  text-align: center;
+  color: #ffffff;
+  background-color: #454b1b;
+  padding: 0;
+  border: 1px solid #e8d9c5;
+  height: 15vh;
+  line-height: 15vh;
+  margin-bottom: 5;
+  font-family: 'Special Elite', monospace;
+  font-weight: 400;
 }

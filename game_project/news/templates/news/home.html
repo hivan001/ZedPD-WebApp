@@ -1,9 +1,27 @@
 {% extends "news/base.html" %}
-
 {% block content%}
-    {% for post in posts %}
-        <h1>{{ post.title }}</h1>
-        <p> By {{ post.author }} on {{post.date_posted}}</p>
-        <p> By {{ post.content }}</p>
-    {% endfor %}
+<div class="container">
+    <div class="row">
+        <div class="col" style="padding: 0;">
+            <h1 class="about-heading">Fort Hope</h1>
+            <div class="about-background">
+                <p class="about-text">
+                    Three years have passed since the first confirmed case of the Z-Virus in humans. The infection spread rampant in large cities and eventually devastated 
+                    even the smallest of towns. In the subsequent years, the worldwide human population has decreased by 85% leaving the remaining survivors desperate
+                    to return to a sense of normalcy. Despite all of the hardships of the post-apocolyptic world, small communities have started coming together to increase 
+                    their chances of survival against depletion of resources and the undead. 
+                </p>
+                <p class="about-text">
+                    Fort Hope is a small community of 5,000 residents in rural Montana. Citizens of Fort Hope each contribute to the community with their own set of skills 
+                    such as farming, carpentry and security. Your role in Fort Hope is that of the local sheriff whose goal is to keep the town safe from the undead and
+                    keeping the peace at home. You are also tasked with making supply runs into the nearby city of Billings to get those much needed supplies.
+                </p>
+                <p class="about-text">
+                    Head over to the news section to learn more about progress in development!
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 {% endblock content %}
